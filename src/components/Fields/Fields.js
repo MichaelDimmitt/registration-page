@@ -111,7 +111,7 @@ class Fields extends Component {
 
     // print(working)
     return (
-      <Fragment>
+      <div style ={{ maxWidth: '960px', margin: 'auto' }}>
         <Input name={'email'} index={1} placeholder={'email@domain.com'} helper={helper} handleChange={this.handleChange}/>
         <Input name={'password'} index={2} placholder={''} helper={helper} handleChange={this.handleChange}/>
         <Input name={'firstName'} index={1} placeholder={''} helper={helper} handleChange={this.handleChange}/>
@@ -122,7 +122,7 @@ class Fields extends Component {
         <div className='inputGroup inputGroup3'>
           <button onClick={ () => this.validateAndSend() } style={{ height: '100px' }} id='login' >Log in</button>
         </div>
-      </Fragment>
+      </div>
     );
   };
 }
