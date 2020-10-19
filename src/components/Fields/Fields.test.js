@@ -1,4 +1,4 @@
-import { validation, failureMessage } from './regexValidation'
+import { validation, failureMessage } from './../../helpers/regexValidation.js'
 import { defaultFields, errorIndicators } from './Fields'
 
 const evaluate = (object) => {
