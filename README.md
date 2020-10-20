@@ -4,11 +4,10 @@ http://nurse-registration.s3-website.us-east-2.amazonaws.com
 ## Installation Instructions
 
 ```
-git clone https://github.com/michaeldimmitt/as-you-fill-out-the-fields-suddenly-there-is-movement.git &&
-cd as-you-fill-out-the-fields-suddenly-there-is-movement &&
-npm install &&
-npm test &&
-npm start
+git clone https://github.com/MichaelDimmitt/registration-page.git &&
+cd registration-page &&
+yarn install &&
+yarn start
 ```
 
 ## This application shows a registration page and Users page
